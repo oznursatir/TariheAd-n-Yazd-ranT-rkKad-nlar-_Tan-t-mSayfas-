@@ -1,0 +1,171 @@
+    *{
+        box-sizing: border-box;
+    }
+
+    html{
+        font-size:62.5%;
+    }
+
+    body,h1,h2,ul{
+        margin:0;
+        padding:0;
+        
+    }
+    ul{
+        list-style: none;
+    }
+
+  
+     body{
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    .arkaplan{
+        background-color: #25373D;
+    }
+    .kapsayici{
+        width: 1050px;
+        margin:0 auto;
+    }
+    
+    .ust{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 150px;
+    }
+
+    .ust .logo{
+        text-align: center;
+        color:#fff;
+    }
+    .ust .logo h1{
+        font-size: 40px;
+        letter-spacing: 8px;
+    }
+
+    .anasayfa {
+        display: flex;
+        margin:0 16px;
+    }
+
+    .orta {
+        margin-top:50px;
+        margin-bottom:50px;
+        box-shadow: 0 0 20px #5a686d;
+        padding: 20px 20px 60px 20px;
+    }
+
+
+    .orta .bolum1{
+        margin-top:40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .orta .bolum1 {
+        display: flex;
+        justify-content: center; 
+       
+    }
+    
+    .orta .bolum1 .kutu {
+        flex-basis: 290px;
+        box-shadow: 0 0 20px #5a686d;
+    }
+
+    .kutu{
+        margin-right: 20px; 
+        margin-left: 20px;
+    }
+    .orta .bolum1 .kutu h2{
+        font-size: 25px;
+    }
+
+    .orta .bolum1 .kutu p{
+        font-size: 16px;
+    }
+    .kutu a {
+        text-decoration: none; 
+        color: #000; 
+    }
+    
+    .kutu a:hover {
+        color: #0bace2; 
+    }
+
+   .detay{
+        display: flex;
+        justify-content: space-between;
+        gap:20px;
+        margin:50px;
+        box-shadow: 0 0 20px #5a686d;
+        padding:20px;
+    }
+
+   .detay h1 {
+        font-size: 40px;
+    }
+    
+    .detay p {
+        font-size: 20px;
+        text-indent: 20px;
+        
+        
+    }
+    .gorsel {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+    }
+
+    .alt {
+        margin-top: 20px;
+        padding: 20px 0;
+        display: flex;
+        gap: 20px;
+    }
+
+    .alt .kapsayici {
+        display: flex; /* Yapıların yan yana sıralanmasını sağlar */
+    }
+    
+    .alt .baglanti p {
+        font-size: 15px;
+    }
+    
+    .alt .baglanti a {
+        flex-grow: 1;
+        font-size: 25px;
+        text-decoration: none;
+        color: #0bace2;
+        text-align: left;
+    }
+    
+    .yapi > div {
+        margin: 5px 0;
+        color: #fff;
+        float: left;
+        clear: left;
+        margin-bottom: 20px;
+    }
+    
+    .yapi {
+        width: 250px;
+        height: 125px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 20px;
+        border-right: 1px solid #ccc;
+        display: inline-block;
+        
+    }
+    
+        
+        
+    .menu{
+        box-shadow: 0 0 20px #5a686d;
+    }
+    
+    .footer{
+        box-shadow: 0 0 20px #5a686d;
+    }
+    
